@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        TODO("Not yet implemented")
     }
 
     override fun onSensorChanged(event: SensorEvent?) {
@@ -51,7 +50,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 steps.text = "" + event.values[0]
             }
         }
-        TODO("Not yet implemented")
     }
 
 }
