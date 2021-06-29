@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             // Update the UI
             val steps: TextView = findViewById(R.id.StepCount)
             if (event != null) {
-                steps.text = event.values[0].toString()
+                steps.text = "" + event.values[0]
             }
         }
         TODO("Not yet implemented")
